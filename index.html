@@ -1,1 +1,640 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WebStart | Desenvolvimento Web</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Web<span>Start</span>
+    </div>
+
+    <nav id="menu">
+        <a href="#inicio">Início</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#aprendizado">Aprendizado</a>
+        <a href="#laboratorio">Laboratório</a>
+        <a href="#ferramentas">Ferramentas</a>
+    </nav>
+
+    <div class="header-actions">
+
+        <button id="themeButton" class="theme-button" title="Alterar tema">
+            ☀
+        </button>
+
+        <button id="menuButton" class="menu-button">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- INÍCIO -->
+
+    <section id="inicio" class="hero">
+
+        <div class="hero-text">
+
+            <p class="tag">DESENVOLVIMENTO WEB</p>
+
+            <h1>
+                Aprenda a criar
+                <span>seus primeiros sites.</span>
+            </h1>
+
+            <p>
+                Criar um site pode parecer complicado no começo,
+                mas tudo começa com alguns conceitos básicos.
+                Aqui você vai conhecer HTML, CSS e JavaScript
+                e entender como essas tecnologias trabalham juntas.
+            </p>
+
+            <p>
+                Você poderá aprender os fundamentos, testar códigos,
+                acompanhar seu progresso e experimentar pequenos
+                exemplos diretamente nesta página.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#tecnologias" class="button">
+                    Começar agora
+                </a>
+
+                <a href="#laboratorio" class="button secondary-button">
+                    Experimentar
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="code-card">
+
+            <div class="code-top">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="code">
+
+                <p>
+                    <b>&lt;html&gt;</b>
+                </p>
+
+                <p class="indent">
+                    &lt;h1&gt;
+                </p>
+
+                <p class="indent2">
+                    Meu primeiro site
+                </p>
+
+                <p class="indent">
+                    &lt;/h1&gt;
+                </p>
+
+                <p>
+                    <b>&lt;/html&gt;</b>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologias" class="section">
+
+        <div class="title">
+
+            <p>FUNDAMENTOS</p>
+
+            <h2>As tecnologias da Web</h2>
+
+            <span>
+                HTML, CSS e JavaScript possuem funções diferentes,
+                mas trabalham juntos para criar páginas completas,
+                bonitas e interativas.
+            </span>
+
+        </div>
+
+
+        <div class="cards">
+
+<article class="card searchable-card">
+
+    <div class="icon html-icon">
+        HTML
+    </div>
+
+    <h3>HTML</h3>
+
+    <h4>Estrutura</h4>
+
+    <p>
+        O HTML organiza o conteúdo de uma página.
+        Ele permite criar títulos, textos, imagens,
+        links, formulários, botões e outras estruturas.
+    </p>
+
+    <button class="learn-button">
+        Aprender mais
+    </button>
+
+    <p class="extra-text">
+        HTML significa HyperText Markup Language e é usado
+        para criar a estrutura das páginas da web. Com ele,
+        podemos organizar textos, imagens, links, formulários,
+        botões e outros elementos que fazem parte de um site.
+    </p>
+
+</article>
+
+<article class="card searchable-card">
+
+    <div class="icon css-icon">
+        CSS
+    </div>
+
+    <h3>CSS</h3>
+
+    <h4>Aparência</h4>
+
+    <p>
+        O CSS controla a aparência do site.
+        Com ele podemos definir cores, tamanhos,
+        espaçamentos, layouts, animações e muito mais.
+    </p>
+
+    <button class="learn-button">
+    Aprender mais
+</button>
+
+<p class="extra-text">
+    CSS significa Cascading Style Sheets e é usado para
+    personalizar a aparência das páginas. Ele permite
+    modificar cores, fontes, tamanhos, espaçamentos,
+    layouts, animações e diversos outros elementos
+    visuais do site.
+</p>
+
+</article>
+
+
+            <article class="card searchable-card">
+
+                <div class="icon js-icon">
+                    JS
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <h4>Interação</h4>
+
+                <p>
+                    JavaScript permite criar interações.
+                    Botões, menus, animações, formulários
+                    e diversos recursos podem ser controlados
+                    através dele.
+                </p>
+
+<button class="learn-button" onclick="mostrarMensagem(this)">
+    Aprender mais
+</button>
+
+<p class="extra-text">
+    JavaScript é uma linguagem de programação usada para
+    adicionar interatividade às páginas. Com ele, é possível
+    criar menus, animações, validações de formulários,
+    botões interativos e muitos outros recursos.
+</p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- APRENDIZADO -->
+
+    <section id="aprendizado" class="section">
+
+        <div class="title">
+
+            <p>CAMINHO DE APRENDIZADO</p>
+
+            <h2>Aprenda passo a passo</h2>
+
+            <span>
+                Não é necessário aprender tudo de uma vez.
+                Comece pelos fundamentos e evolua aos poucos.
+            </span>
+
+        </div>
+
+
+        <div class="learning-list">
+
+            <div class="learning-item searchable-card">
+
+                <strong>01</strong>
+
+                <div>
+                    <h3>Aprenda HTML</h3>
+
+                    <p>
+                        Entenda como criar a estrutura básica
+                        de uma página.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="learning-item searchable-card">
+
+                <strong>02</strong>
+
+                <div>
+                    <h3>Aprenda CSS</h3>
+
+                    <p>
+                        Aprenda a transformar uma página simples
+                        em uma interface visualmente agradável.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="learning-item searchable-card">
+
+                <strong>03</strong>
+
+                <div>
+                    <h3>Aprenda JavaScript</h3>
+
+                    <p>
+                        Adicione lógica, eventos e interações
+                        aos seus projetos.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="learning-item searchable-card">
+
+                <strong>04</strong>
+
+                <div>
+                    <h3>Crie projetos</h3>
+
+                    <p>
+                        A melhor maneira de aprender é colocando
+                        seus conhecimentos em prática.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LABORATÓRIO -->
+
+    <section id="laboratorio" class="section">
+
+        <div class="title">
+
+            <p>PRATIQUE</p>
+
+            <h2>Laboratório Web</h2>
+
+            <span>
+                Escreva HTML no editor e veja o resultado
+                aparecer diretamente na página.
+            </span>
+
+        </div>
+
+
+        <div class="lab-box">
+
+            <div class="lab-editor">
+
+                <div class="lab-header">
+                    <h3>Seu código</h3>
+
+                    <button id="copyCode">
+                        📋 Copiar
+                    </button>
+                </div>
+
+                <textarea id="codeEditor"><h1>Olá, WebStart!</h1>
+<p>Estou aprendendo desenvolvimento web.</p>
+<button>Meu botão</button></textarea>
+
+                <button id="runCode" class="button">
+                    ▶ Executar código
+                </button>
+
+            </div>
+
+
+            <div class="lab-result">
+
+                <div class="lab-header">
+                    <h3>Resultado</h3>
+                </div>
+
+                <iframe
+                    id="codeResult"
+                    title="Resultado do código"
+                ></iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROGRESSO -->
+
+    <section class="section">
+
+        <div class="title">
+
+            <p>SEU PROGRESSO</p>
+
+            <h2>Continue aprendendo</h2>
+
+            <span>
+                Marque os assuntos que você já estudou.
+            </span>
+
+        </div>
+
+
+        <div class="progress-box">
+
+            <label>
+                <input
+                    type="checkbox"
+                    class="progress-check"
+                >
+                Aprendi HTML
+            </label>
+
+
+            <label>
+                <input
+                    type="checkbox"
+                    class="progress-check"
+                >
+                Aprendi CSS
+            </label>
+
+
+            <label>
+                <input
+                    type="checkbox"
+                    class="progress-check"
+                >
+                Aprendi JavaScript
+            </label>
+
+
+            <label>
+                <input
+                    type="checkbox"
+                    class="progress-check"
+                >
+                Criei meu primeiro projeto
+            </label>
+
+
+            <div class="progress-bar">
+
+                <div id="progressFill"></div>
+
+            </div>
+
+
+            <p id="progressText">
+                0% concluído
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- DICAS -->
+
+    <section class="section tips-section">
+
+        <div class="title">
+
+            <p>DICAS</p>
+
+            <h2>Uma dica para você</h2>
+
+            <span>
+                Pequenas ideias podem ajudar bastante
+                durante o aprendizado.
+            </span>
+
+        </div>
+
+
+        <div class="tip-box">
+
+            <div id="tipIcon">
+                💡
+            </div>
+
+            <p id="tipText">
+                Praticar pequenos projetos é uma ótima maneira
+                de entender como as tecnologias funcionam juntas.
+            </p>
+
+            <button id="newTip" class="button">
+                Nova dica
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- FERRAMENTAS -->
+
+    <section id="ferramentas" class="section">
+
+        <div class="title">
+
+            <p>RECURSOS</p>
+
+            <h2>Ferramentas úteis</h2>
+
+            <span>
+                Algumas ferramentas podem facilitar bastante
+                o desenvolvimento dos seus projetos.
+            </span>
+
+        </div>
+
+
+        <div class="tools">
+
+            <article class="tool searchable-card">
+
+                <div class="tool-icon">
+                    💻
+                </div>
+
+                <h3>Editor de código</h3>
+
+                <p>
+                    Um editor permite escrever e organizar
+                    arquivos HTML, CSS e JavaScript.
+                </p>
+
+            </article>
+
+
+            <article class="tool searchable-card">
+
+                <div class="tool-icon">
+                    🌐
+                </div>
+
+                <h3>Navegador</h3>
+
+                <p>
+                    O navegador interpreta os arquivos e
+                    apresenta o resultado do seu projeto.
+                </p>
+
+            </article>
+
+
+            <article class="tool searchable-card">
+
+                <div class="tool-icon">
+                    📦
+                </div>
+
+                <h3>GitHub</h3>
+
+                <p>
+                    Pode ser utilizado para armazenar,
+                    organizar e compartilhar projetos.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTERAÇÃO -->
+
+    <section class="section interactive">
+
+        <div class="title">
+
+            <p>INTERAÇÃO</p>
+
+            <h2>Teste o JavaScript</h2>
+
+            <span>
+                Clique no botão abaixo para alterar
+                o conteúdo da página.
+            </span>
+
+        </div>
+
+
+        <div class="interaction-box">
+
+            <h3 id="message">
+                Clique no botão para começar.
+            </h3>
+
+<button id="changeButton" class="button interactive-button">
+    <span>Testar JavaScript</span>
+    <span class="button-arrow">→</span>
+</button>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- DESTAQUE -->
+
+    <section class="highlight">
+
+        <p>WEBSTART</p>
+
+        <h2>
+            Todo projeto começa com uma primeira linha de código.
+        </h2>
+
+        <span>
+            Continue praticando, experimente novas ideias
+            e transforme pequenos projetos em algo cada vez maior.
+        </span>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © <span id="year"></span> WebStart
+    </p>
+
+    <p>
+        Projeto de aprendizado em desenvolvimento Web.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
